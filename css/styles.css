@@ -15,10 +15,9 @@ header {
     color: white;
 }
 
-/* Container for flexboxes */
-section {
-    display: -webkit-flex;
-    display: flex;
+
+.my-background {
+    background-color: grey
 }
 
 /* Style the navigation menu */
@@ -44,38 +43,42 @@ article {
     background-color: #f1f1f1;
     padding: 10px;
 }
- 
-  .topnav {
+
+.logo {
+    background-color: black;
+}
+
+.topnav {
     overflow: hidden;
     background-color: black;
-  }
-  
-  .topnav a {
+}
+
+.topnav a {
     float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
-  
-  .topnav a:hover {
+}
+
+.topnav a:hover {
     background-color: white;
     color: black;
-  }
-  
-  .topnav a.active {
+}
+
+.topnav a.active {
     background-color: #04AA6D;
     color: white;
-  }
+}
 
-  /* Style the footer */
+/* Style the footer */
 footer {
     position: absolute;
     bottom: 0;
+    left: 0%;
     width: 100%;
     background-color: black;
-    padding-top: 10px;
     text-align: center;
     color: white;
 }
