@@ -115,19 +115,22 @@ footer .right {
   margin-right: 2rem; 
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
 }
 
-footer .right .behance{
+footer .right .behance {
   background: url('../images/behance.png') no-repeat;
   background-size: 100%;
   height: 25px;
   width: 25px;
+  margin-right: 5px;
 }
 
-footer .right .linkedin{
+footer .right .linkedin {
   background: url('../images/linkedin.jpeg') no-repeat;
   background-size: 100%;
   height: 25px;
   width: 25px;
+  margin-left: 5px;
 }
